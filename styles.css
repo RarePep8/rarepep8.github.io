@@ -1,0 +1,81 @@
+html, body{
+  overflow-x: hidden;
+}
+body {
+    width: 100vw;
+    background-image: url("prism.png");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-color:transparent;
+    color: white;
+  }
+  .navbar
+  {
+      /* background-color: transparent !important; */
+  }
+  /* .fill { 
+    min-height: 100%;
+    height: 100%;
+  } */
+
+  .section {
+    padding-top: 25%;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+
+  }
+
+  .r-button {
+    font-size: 30px !important;
+  }
+
+  #intro-left {
+    margin-right: 50px;
+  }
+
+  #face {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 20 0 20 20;
+  }
+
+  .skills-row {
+    padding-bottom: 20px;
+  }
+
+  .skills-icon {
+    width: 85px;
+    min-width: 85px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transform: skew(-20deg);
+    background: #17202A;
+    margin: 1px;
+  }
+
+  .job {
+    margin-bottom: 40px;
+  }
+
+/* ::-webkit-scrollbar-track
+{
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  border-radius: 10px;
+  background-color:transparent;
+}
+
+::-webkit-scrollbar
+{
+  width: 12px;
+  background-color:transparent;
+}
+
+::-webkit-scrollbar-thumb
+{
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+  background-color: #555;
+} */
