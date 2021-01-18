@@ -64,6 +64,19 @@ body {
     margin-bottom: 20px;
   }
 
+  .arrow {
+    position: relative;
+    animation-name: hover;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes hover {
+    0%   {left:0px; bottom:0px;}
+    25%  {left:0px; bottom:100px;}
+    100% {left:0px; bottom:0px;}
+  }
+
 /* ::-webkit-scrollbar-track
 {
   -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
