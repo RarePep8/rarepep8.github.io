@@ -1,189 +1,303 @@
 <!doctype html>
+
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+  <meta charset="utf-8">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
-    <script src="https://kit.fontawesome.com/c8d02ee90d.js" crossorigin="anonymous"></script>
-    <title>Alex's Website</title>
-  </head>
-  <body>
+  <title>Alex Wong</title>
+  <meta name="description" content="The HTML5 Herald">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">A.W</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#skills">Skills</a>
-          <a class="nav-item nav-link" href="#experience">Experience</a>
-          <!-- <a class="nav-item nav-link" href="#projects">Projects</a>
-          <a class="nav-item nav-link" href="#resume">Resume</a> -->
-        </div>
-      </div>
-    </nav>
-    <div id="intro">
-      <div class="container fill">
-        <div class="section section-hook d-flex flex-column justify-content-between align-items-center">
-          <div  class="d-flex flex-wrap">
-            <div class="col-lg-4 col-md-12">
-              <div id="intro-left" class="d-flex align-items-center flex-column">
-                <img src="face3.png" class="img-fluid" alt="Face" id="face">
-                <img src="body2.png" class="img-fluid" alt="Face" id="body">
-              </div>
-  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <script src="https://kit.fontawesome.com/c8d02ee90d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css?v=1.0">
+  <link rel="icon" href="favicon.svg">
+</head>
+
+<body>
+    <div class="container intro fadein" id="intro-container">
+            <div id="intro-heading">Hey, I'm Alex 
+
+
+
             </div>
-            <div class="col-lg-8 col-md-12">
-              <h2>ALEX WONG</h2>
-              Improvise, Adapt, Overcome
-              <hr/>
-              <p>Hey there I'm Alex, and I am a soon to be <b>UofT Comp Sci</b> new grad <b>seeking full-time position</b> starting September 2021</p>
-              <div class="btn-group btn-group-sm" role="group" aria-label="Basic example">
-                <button type="button" class="btn btn-outline-light" onclick=" window.open('https://github.com/RarePep8','_blank')"><i class="fab fa-github"></i> Github</button>
-                <button type="button" class="btn btn-outline-light" onclick=" window.open('https://www.linkedin.com/in/alex-wong-556151150/','_blank')"><i class="fab fa-linkedin"></i> LinkedIn</button>
-                <button type="button" class="btn btn-outline-light" onclick=" window.open('https://soundcloud.com/rarepep8','_blank')"><i class="fab fa-soundcloud"></i> Soundcloud</button>
-                
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-auto mr-auto">
+                        <i class="fas fa-frog fa-4x"></i>
+                    </div>
+                    <div class="col-auto mr-auto">
+                        <div id="intro-heading-chat">What brings you here?</div>
+                    </div>
+                </div>
 
-              </div>
             </div>
-          </div>
-          <div class="arrow">
-            <i class="fas fa-arrow-down fa-3x"></i>
-          </div>
+            <div class="container">
+                <div class="row links">
+                  <div class="col-auto mr-auto">
+                    <a id="experiences-link" href="#" class="primary">Experiences</a> |
+                  </div>
+                  <div class="col-auto mr-auto">
+                    <a id="projects-link" href="#" class="primary">Projects</a> |
+                  </div>
+                  <div class="col-auto mr-auto">
+                    <a href="https://www.linkedin.com/in/alex-wong-556151150/"><img src="linkedin.svg" style="width:35px;height:35px;"></a>
+                    <a href="https://github.com/RarePep8"><img src="github.svg" style="width:35px;height:35px;"></a>
+                    <a href="https://soundcloud.com/rarepep8"><img src="soundcloud.svg" style="width:35px;height:35px;"></a>
+                  </div>
+                </div>
+            </div>
+
+            <!-- <div class="container">
+                <div class="row" id="networks">
+                    <button class="btn"><i class="fa fa-home"></i></button>
+            
+                </div>
+            </div> -->
+
+
+        <div>
+            
         </div>
-      </div>
+
     </div>
-    <div id="skills">
-      <div class="container fill">
-        <div class="section d-flex flex-column justify-content-between align-items-center">
-          <div  class="d-flex flex-wrap">
-
-            <div class="col">
-              <h3 class="section-heading">Skills</h3>
-              <h5>Core</h5>
-              <div class="d-flex skills-row flex-wrap">
-                <div class="skills-icon">Java</div>
-                <div class="skills-icon">Python</div>
-                <div class="skills-icon">C#</div>
-                <div class="skills-icon">C</div>
-              </div>
-              <h5>Database</h5>
-              <div class="d-flex skills-row flex-wrap">
-                <div class="skills-icon">MongoDB</div>
-                <div class="skills-icon">Neo4j</div>
-                <div class="skills-icon">PostgreSQL</div>
-              </div>
-              <h5>Web Development</h5>
-              <div class="d-flex skills-row flex-wrap">
-                <div class="skills-icon">HTML</div>
-                <div class="skills-icon">CSS</div>
-                <div class="skills-icon">Javascript</div>
-                <div class="skills-icon">React</div>
-                <div class="skills-icon">Angular</div>
-                <div class="skills-icon">Node.js</div>
-                <div class="skills-icon">Express</div>
-              </div>
-              <h5>Game Development</h5>
-              <div class="d-flex skills-row flex-wrap">
-                <div class="skills-icon">Godot</div>
-                <div class="skills-icon">Greenfoot</div>
-              </div>
-              <h5>Collaboration</h5>
-              <div class="d-flex skills-row flex-wrap">
-                <div class="skills-icon">Git</div>
-                <div class="skills-icon">SVN</div>
-                <div class="skills-icon">JIRA</div>
-                <div class="skills-icon">Agile</div>
-              </div>
-            </div>
+    <div id="experiences">
+      <div class="container mt-5">
+        <a id="experiences-back-link" href="#" >< Back</a>
+        <div class="mt-2"><b>Experiences</b></div>
+        <div class="mt-4">
+          <div class="row">
+            <div class="col-8"><b>Ubineer</b></div>
+            <div class="col-4">March 2021 - May 2021</div>
           </div>
-          <div class="arrow">
-            <i class="fas fa-arrow-down fa-3x"></i>
+          <div class="row">
+            <div class="col-12">        
+              Full Stack Developer
+              <ul>
+                <li>Implemented registration API endpoints in Java SpringBoot while following a domain driven approach</li>
+                <li>Developed front-facing features on Vue.js application for visualization of  financial analytics</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-    <div id="experience">
-      <div class="container fill">
-        <div class="section">
-
-          <h3 class="section-heading">Experience</h3>
-          <div class="d-flex flex-column job">
-            <div class="d-flex">
-              <div class="mr-auto"><h5>OpenText</h5></div>
-              <div class="">May 2019 - Dec 2019</div>
-            </div>
-            Software Developer
-            <ul>
-              <li>Implemented changes to Java microservice in order to transition from Mule to Spring Boot</li>
-              <li>Added RESTful api endpoints to Spring Boot backend</li>
-              <li>Created SQL scripts for database upgrade and downgrade</li>
-            </ul>
+        <div class="mt-4">
+          <div class="row">
+            <div class="col-8"><b>OpenText</b></div>
+            <div class="col-4">May 2019 - Dec 2019</div>
           </div>
-          <div class="d-flex flex-column job">
-            <div class="d-flex">
-              <div class="mr-auto"><h5>TD Bank Group</h5></div>
-              <div class="">Jan 2018 - Apr 2018</div>
+          <div class="row">
+            <div class="col-12">        
+              Software Developer
+              <ul>
+                <li>Implemented changes to Java microservice in order to transition from Mule to Spring Boot</li>
+                <li>Added RESTful api endpoints to Spring Boot backend</li>
+                <li>Created and maintained SQL scripts for database to upgrade and revert based on product version</li>
+              </ul>
             </div>
-            QA/Test Analyst @ TD’s Easy Apply channel
-            <ul>
-              <li>Tested and retested for hundreds of accessibility, UI, and functional defects</li>
-              <li>Cooperated with two teams to ensure both projects (ULOAN application & Credit Card RADAR
-                  offers) were defect free before exiting the System Integration Testing phase</li>
-              <li>Planned and tested for implementation of new features during the development phase for the
-                  Credit Card BAU application to ensure smooth transition into SIT phase</li>
-            </ul>
           </div>
-          <div class="d-flex flex-column job">
-            <div class="d-flex">
-              <div class="mr-auto"><h5>SCI Marketview</h5></div>
-              <div class="">Sept 2018 - Dec 2018</div>
+        </div>
+        <div class="mt-4">
+          <div class="row">
+            <div class="col-8"><b>SCI Marketview</b></div>
+            <div class="col-4">September 2018 - December 2018</div>
+          </div>
+          <div class="row">
+            <div class="col-12">        
+              Automation Developer
+              <ul>
+                <li>Developed automated tests to reduce the overuse of selenium for low-level tests while maintaining proper test coverage</li>
+                <li>Created C# unit tests, workflow (API) tests, and end-to-end specflow (selenium) tests as an effort to transition into the agile testing approach</li>
+                <li>Configured projects/solutions for building and testing on the command line in order to be used within GoCD pipelines</li>
+              </ul>
             </div>
-            Automation Developer
-            <ul>
-              <li>Developed automated tests of various levels for SCI’s CreditDriver application to reduce the overuse of selenium for low-level tests while maintaining proper test coverage
-              </li>
-              <li>Created C# unit tests, workflow (API) tests, and end-to-end specflow (selenium) tests as an effort to transition into the agile testing approach</li>
-              <li>Configured projects/solutions for building and testing on the command line in order to be used within GoCD pipelines</li>
-            </ul>
+          </div>
+        </div>
+        <div class="mt-4">
+          <div class="row">
+            <div class="col-8"><b>TD Bank Group</b></div>
+            <div class="col-4">January 2018 - April 2018</div>
+          </div>
+          <div class="row">
+            <div class="col-12">        
+              QA/Test Analyst within TD’s Easy Apply channel
+              <ul>
+                <li>Tested and retested for hundreds of accessibility, UI, and functional defects</li>
+                <li>Planned and tested for implementation of new features during the development phase for the Credit Card BAU application to ensure smooth transition into SIT phase</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
 
     </div>
-    <!-- <div id="projects">
-      <div class="container fill">
-        <div class="section">
-
-
-          <div class="d-flex flex-column">
-            <h5>OmegleLuL</h5>
-            <p>123123</p>
+    <div id="projects">
+      <div class="container mt-5">
+        <a id="projects-back-link" href="#" >< Back</a>
+        <div class="mt-2"><b>Projects</b></div>
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-8"><b>Timetabros (Academic) </b></div>
+          </div>
+          <div class="row">
+            <div class="col-12">        
+              Timetable scheduler with social network features to enable schedule sharing and group event creation,  powered by React, GO, Mongo, Material Design UI
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-8"><b>U-Impactify (Academic)</b></div>
+          </div>
+          <div class="row">
+            <div class="col-12">        
+              Platform for online courses with emphasis on helping social initiatives, supports course assessments and live lecture sessions and powered by React, Spring Boot, Postgres, Shards UI
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-8"><b>CodeMangler </b></div>
+          </div>
+          <div class="row">
+            <div class="col-12">        
+              Website with pure javascript that generates random re-runnable code blocks with parameter
+                            support
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-8"><b>Pep8Lotto </b></div>
+          </div>
+          <div class="row">
+            <div class="col-12">        
+              Web app for opening loot crates and collecting cool items
+            </div>
+          </div>
+        </div>
+        <div class="mt-5">
+          <div class="row">
+            <div class="col-8"><b>SenpaiBot </b></div>
+          </div>
+          <div class="row">
+            <div class="col-12">        
+              A Discord server bot with video streaming, image fetching, and other features
+            </div>
           </div>
         </div>
       </div>
 
-    </div> -->
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <script>
-    $(document).ready(function() {
-    $( ".nav-item" ).bind( "click", function(event) {
-        var clickedItem = $( this );
-        $( ".nav-item" ).each( function() {
-            $( this ).removeClass( "active" );
-        });
-        clickedItem.addClass( "active" );
-    });
-    });
-    </script>
-  </body>
+    </div>
+    <div id="green-circle-container" >
+      <div id="green-circle" class="fadein">
+    </div>
+
+
+    </div>
+    <div id="blue-circle-container">
+      <div id="blue-circle" class="fadein">
+    </div>
+
+        
+    </div>
+  <!-- <script src="js/scripts.js"></script> -->
+</body>
+<script>
+    window.onload = function() {   
+        const messages=[ "Check out my projects!", "Take a listen at my music :)", "Want to learn more about me?", "Interested in my past experiences?", "Connect with me, I'll be glad to!", "Got a cool idea? Let's hear it!"]
+        function foo() {
+            const index = Math.floor(Math.random() * messages.length);
+            var item = messages[index];
+            document.getElementById("intro-heading-chat").innerHTML = item;
+        }
+        var msgIntervalId = setInterval(foo, 5000);
+        var introContainer = document.getElementById('intro-container');
+        var blueCircle= document.getElementById('blue-circle');
+        var blueCircleContainer= document.getElementById('blue-circle-container');
+        var greenCircle = document.getElementById('green-circle');
+        var greenCircleContainer = document.getElementById('green-circle-container');
+        var experiences = document.getElementById('experiences');
+        var projects = document.getElementById('projects');
+        document.getElementById('experiences-link').onclick = function() {
+          clearInterval(msgIntervalId);
+            greenCircle.classList.remove('horizTranslate2');
+            greenCircle.classList.add('horizTranslate');
+            blueCircleContainer.classList.remove('fadein');
+            blueCircleContainer.classList.add('fadeout');
+            introContainer.classList.remove('fadein');
+            introContainer.classList.add('fadeout');
+            setTimeout(function() {
+              blueCircleContainer.style.display="none";
+              introContainer.style.display="none";
+              experiences.style.display="block";
+              experiences.classList.remove('fadeout');
+              experiences.classList.add('fadein');
+            }, 500);
+        }
+        document.getElementById('experiences-back-link').onclick = function() {
+          experiences.classList.remove('fadein');
+          experiences.classList.add('fadeout');
+          greenCircle.classList.remove('horizTranslate');
+          greenCircle.classList.add('horizTranslate2');
+          blueCircleContainer.classList.remove('fadeout');
+          introContainer.classList.remove('fadeout');
+
+
+          setTimeout(function() {
+            experiences.style.display="none";
+            blueCircleContainer.classList.add('fadein');
+            introContainer.classList.add('fadein');
+            blueCircleContainer.style.display="block";
+            introContainer.style.display="block";
+            msgIntervalId = setInterval(foo, 5000);
+            }, 500);
+            setTimeout(function() {
+              greenCircle.classList.remove('horizTranslate2');
+            }, 1000);
+
+        }
+        document.getElementById('projects-link').onclick = function() {
+          clearInterval(msgIntervalId);
+            blueCircle.classList.remove('horizTranslate2');
+            blueCircle.classList.add('horizTranslate');
+            greenCircleContainer.classList.remove('fadein');
+            greenCircleContainer.classList.add('fadeout');
+            introContainer.classList.remove('fadein');
+            introContainer.classList.add('fadeout');
+
+            setTimeout(function() {
+
+              greenCircleContainer.style.display="none";
+              introContainer.style.display="none";
+              projects.style.display="block";
+              projects.classList.remove('fadeout');
+              projects.classList.add('fadein');
+            }, 500);
+        }
+        document.getElementById('projects-back-link').onclick = function() {
+          projects.classList.remove('fadein');
+          projects.classList.add('fadeout');
+          blueCircle.classList.remove('horizTranslate');
+          blueCircle.classList.add('horizTranslate2');
+          greenCircleContainer.classList.remove('fadeout');
+          introContainer.classList.remove('fadeout');
+
+
+          setTimeout(function() {
+            projects.style.display="none";
+            greenCircleContainer.classList.add('fadein');
+            introContainer.classList.add('fadein');
+            greenCircleContainer.style.display="block";
+            introContainer.style.display="block";
+            msgIntervalId = setInterval(foo, 5000);
+            }, 500);
+          setTimeout(function() {
+            blueCircle.classList.remove('horizTranslate2');
+          }, 1000);
+            
+
+        }
+    }
+    
+</script>
 </html>
