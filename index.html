@@ -227,14 +227,19 @@
             blueCircleContainer.classList.add('fadeout');
             introContainer.classList.remove('fadein');
             introContainer.classList.add('fadeout');
+
             setTimeout(function() {
               blueCircleContainer.style.display="none";
               introContainer.style.display="none";
               experiences.style.display="block";
               experiences.classList.remove('fadeout');
               experiences.classList.add('fadein');
-              document.body.style.overflowY="auto";
+
+              document.body.style.backgroundColor="#00BDA2";
             }, 1000);
+            setTimeout(function() {
+              document.body.style.overflowY="auto";
+            }, 1200)
         }
         document.getElementById('experiences-back-link').onclick = function() {
           experiences.classList.remove('fadein');
@@ -244,7 +249,7 @@
           blueCircleContainer.classList.remove('fadeout');
           introContainer.classList.remove('fadeout');
           document.body.style.overflowY="hidden";
-
+          document.body.style.backgroundColor="#FFF1D0";
           setTimeout(function() {
             experiences.style.display="none";
             blueCircleContainer.classList.add('fadein');
@@ -274,8 +279,11 @@
               projects.style.display="block";
               projects.classList.remove('fadeout');
               projects.classList.add('fadein');
-              document.body.style.overflowY="auto";
+              document.body.style.backgroundColor="#18508A";
             }, 1000);
+            setTimeout(function() {
+              document.body.style.overflowY="auto";
+            }, 1200)
         }
         document.getElementById('projects-back-link').onclick = function() {
           projects.classList.remove('fadein');
@@ -285,7 +293,7 @@
           greenCircleContainer.classList.remove('fadeout');
           introContainer.classList.remove('fadeout');
           document.body.style.overflowY="hidden";
-
+          document.body.style.backgroundColor="#FFF1D0";
           setTimeout(function() {
             projects.style.display="none";
             greenCircleContainer.classList.add('fadein');
