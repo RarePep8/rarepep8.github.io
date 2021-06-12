@@ -46,7 +46,7 @@ a.primary:link {
 
 #intro-heading {
 z-index: 0;
-    font-size: 7rem;
+    font-size: 7vmin;
     font-weight: 300;
     line-height: 1.2;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -54,7 +54,7 @@ z-index: 0;
 
 #intro-heading-chat {
     color:#00BDA2;
-    font-size: 5rem;
+    font-size: 5vmin;
     font-weight: 300;
     line-height: 1.2;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -67,7 +67,7 @@ z-index: 0;
     color:#00BDA2;
 }
 .links {
-    font-size: 3rem;
+    font-size: 3vmin;
     font-weight: 300;
     line-height: 1.2;
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
@@ -131,11 +131,11 @@ z-index: 0;
 
   @keyframes enlarge {
     0%   {width: 90vmax; height: 90vmax;transform: scale(1,1)}
-    100% {width: 90vmax; height: 90vmax;transform: scale(8,8)}
+    100% {border-radius: 0;left:0;top:0;width: 100vw; height: 100vh;transform: scale(1,1)}
   }
 
   @keyframes unenlarge {
-    0%   {width: 90vmax; height: 90vmax;transform: scale(8,8)}
+    0% {border-radius: 0;left:0;top:0;width: 100vw; height: 100vh;transform: scale(1,1)}
     100% {width: 90vmax; height: 90vmax;transform: scale(1,1)}
   }
 
@@ -150,7 +150,7 @@ z-index: 0;
 
   #green-circle.horizTranslate {
     animation-name: enlarge;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
   }
@@ -164,7 +164,7 @@ z-index: 0;
 
   #blue-circle.horizTranslate {
     animation-name: enlarge;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;  
   }

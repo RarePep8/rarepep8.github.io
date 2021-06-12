@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>Alex Wong</title>
-  <meta name="description" content="The HTML5 Herald">
+  <meta name="description" content="Portfolio Website">
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -127,6 +127,7 @@
             </div>
           </div>
         </div>
+        </div>
       </div>
 
     </div>
@@ -181,7 +182,7 @@
           </div>
           <div class="row">
             <div class="col-12">        
-              A Discord server bot with video streaming, image fetching, and other features
+              A Python-powered Discord server bot with video streaming, image fetching, and other features
             </div>
           </div>
         </div>
@@ -232,7 +233,8 @@
               experiences.style.display="block";
               experiences.classList.remove('fadeout');
               experiences.classList.add('fadein');
-            }, 500);
+              document.body.style.overflowY="auto";
+            }, 1000);
         }
         document.getElementById('experiences-back-link').onclick = function() {
           experiences.classList.remove('fadein');
@@ -241,7 +243,7 @@
           greenCircle.classList.add('horizTranslate2');
           blueCircleContainer.classList.remove('fadeout');
           introContainer.classList.remove('fadeout');
-
+          document.body.style.overflowY="hidden";
 
           setTimeout(function() {
             experiences.style.display="none";
@@ -272,7 +274,8 @@
               projects.style.display="block";
               projects.classList.remove('fadeout');
               projects.classList.add('fadein');
-            }, 500);
+              document.body.style.overflowY="auto";
+            }, 1000);
         }
         document.getElementById('projects-back-link').onclick = function() {
           projects.classList.remove('fadein');
@@ -281,7 +284,7 @@
           blueCircle.classList.add('horizTranslate2');
           greenCircleContainer.classList.remove('fadeout');
           introContainer.classList.remove('fadeout');
-
+          document.body.style.overflowY="hidden";
 
           setTimeout(function() {
             projects.style.display="none";
@@ -293,6 +296,7 @@
             }, 500);
           setTimeout(function() {
             blueCircle.classList.remove('horizTranslate2');
+            
           }, 1000);
             
 
